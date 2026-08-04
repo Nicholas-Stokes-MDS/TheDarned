@@ -54,6 +54,9 @@ public:
 	/** Constructor */
 	ATheDarnedCharacter();	
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bCanMove = true;
+
 protected:
 
 	/** Initialize input action bindings */
